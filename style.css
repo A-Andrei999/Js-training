@@ -1,0 +1,88 @@
+body {
+   background-color: aqua;
+}
+
+.contener {
+   background-color: green;
+   height: 830px;
+   width: 1270px;
+   margin: 0;
+}
+
+.calculator {
+   background-color: white
+   ;
+   width: 400px;
+   height: 600px;
+   margin: 0 auto;
+   position: relative;
+   border-radius: 10px;
+   top: 40px;
+}
+
+.result {
+   background-color: white;
+   height: 200px;
+   width: 400px;
+   border-radius: 10px;
+}
+
+.histori{
+   height: 70px;
+   font-size: 30px;
+   text-align: right;
+   margin: 0 10px;
+   padding-top: 5px;
+   border: none;
+}
+
+.output{
+   height: 109px;
+   width: 365px;
+   font-size: 60px;
+   text-align: right;
+   margin: 0 10px;
+   padding-top: 5px;
+   border: none;
+}
+
+.keybord {
+   height: 400px;
+}
+
+.operator, .number {
+   width: 96px;
+   height: 76px;
+   margin: 2px;
+   font-size: 22px;
+   cursor: pointer;
+   font-weight: bold;
+   background-color:rgb(243, 235, 235);
+   border-radius: 60px;
+   float: left;
+   border: 0;
+}
+
+.bt-AC {
+   background-color: red;
+}
+
+.bt-del {
+   background-color: blue;
+}
+
+.bt-operator {
+   background-color: coral;
+}
+
+.bt-result {
+   background-color: green;
+}
+
+.bt-change {
+   background-color: indigo;
+}
+
+.bt-comma {
+   background-color: lemonchiffon;
+}
